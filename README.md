@@ -14,10 +14,10 @@ Python · LangChain · LangGraph · Docker · AWS
 <a href="https://github.com/Ayush-Prasad4">
   <img src="https://img.shields.io/badge/GitHub-Ayush--Prasad4-292929?style=flat-square&logo=github&logoColor=white" alt="GitHub">
 </a>
-<a href="YOUR_LINKEDIN_URL">
+<a href="https://www.linkedin.com/in/ayush-prasad-ds/">
   <img src="https://img.shields.io/badge/LinkedIn-Profile-292929?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
-<a href="YOUR_PORTFOLIO_URL">
+<a href="https://ayushprasad.dev/">
   <img src="https://img.shields.io/badge/Portfolio-Website-292929?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio">
 </a>
 
@@ -166,7 +166,7 @@ Siksha 'O' Anusandhan · Bhubaneswar, India
 
 I'm interested in **AI Engineering, Generative AI, Machine Learning and applied AI systems**.
 
-**[LinkedIn](YOUR_LINKEDIN_URL)** · **[Portfolio](YOUR_PORTFOLIO_URL)** · **[Email](mailto:YOUR_EMAIL)**
+**[LinkedIn](https://www.linkedin.com/in/ayush-prasad-ds/)** · **[Portfolio](https://ayushprasad.dev/)** · **[Email](mailto:ayush@ayushprasad.dev)**
 
 <br>
 
