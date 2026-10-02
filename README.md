@@ -62,40 +62,30 @@ CI/CD
 
 ## 🧠 AI Engineering
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<table> <tr> <td width="50%" valign="top">
 
-<table>
-<tr>
-<td width="50%" align="center" valign="top">
-
-<h3>Generative AI</h3>
-
-LLM Applications<br>
-Retrieval-Augmented Generation<br>
-AI Agents<br>
-LangChain<br>
-LangGraph<br>
+Generative AI
+LLM Applications
+Retrieval-Augmented Generation
+AI Agents
+LangChain
+LangGraph
 LLM Evaluation
 
 </td>
 
-<td width="50%" align="center" valign="top">
+<td width="50%" valign="top">
 
-<h3>Engineering</h3>
-
-ML / DL Pipelines<br>
-Data & ETL Systems<br>
-APIs<br>
-Testing<br>
-Docker<br>
-CI/CD<br>
+Engineering
+ML / DL Pipelines
+Data & ETL Systems
+APIs
+Testing
+Docker
+CI/CD
 Cloud
 
-</td>
-</tr>
-</table>
+</td> </tr> </table>
 
 ---
 
