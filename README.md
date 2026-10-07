@@ -2,221 +2,132 @@
 
 # AYUSH PRASAD
 
-### AI ENGINEER · GENERATIVE AI · INFERENCE ENGINEERING
+### AI Engineer · Generative AI · Inference Engineering
 
-**MSc Data Science @ University of Milano-Bicocca 🇮🇹**
+**MSc Data Science @ University of Milano-Bicocca · Milan, Italy 🇮🇹**
 
-LLMs · RAG · AI Agents · ML/DL · AI Inference
-Python · LangChain · LangGraph · PyTorch · Docker · AWS
+I build LLM systems that can be **evaluated, tested, monitored and deployed**, not just demoed.
 
 <br>
 
-<a href="https://github.com/Ayush-Prasad4">
-  <img src="https://img.shields.io/badge/GitHub-Ayush--Prasad4-292929?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-</a>
 <a href="https://www.linkedin.com/in/ayush-prasad-ds/">
   <img src="https://img.shields.io/badge/LinkedIn-Profile-292929?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 <a href="https://ayushprasad.dev/">
   <img src="https://img.shields.io/badge/Portfolio-Website-292929?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio">
 </a>
+<a href="mailto:ayush@ayushprasad.dev">
+  <img src="https://img.shields.io/badge/Email-ayush@ayushprasad.dev-292929?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+<br><br>
+
+**Open to AI / ML Engineer roles in Europe**
 
 </div>
 
 ---
 
-## 🚀 Featured Work
+## 🚀 Featured Projects
+
+| Project | What it is | Highlights |
+|---|---|---|
+| [**LedgerLens**](https://github.com/Ayush-Prasad4/ledgerlens) | Agentic RAG over SEC 10-K filings | Every number verified against its source quote · sealed test splits · 200+ tests |
+| **NexusAI** | Multi-agent platform for async AI workflows | Redis Streams + workers · idempotency, retries, dead-letter queue · 120+ tests |
+| [**InferX**](https://github.com/Ayush-Prasad4/inferx) | LLM / Transformer inference optimization | ONNX Runtime ~71% lower latency · KV-cache ~4.5× throughput |
+
+---
 
 ### [LedgerLens](https://github.com/Ayush-Prasad4/ledgerlens)
 
-**AI-powered financial intelligence system**
+**Agentic RAG assistant for SEC 10-K filings, built evaluation-first**
 
-An end-to-end AI engineering project combining **financial data processing, retrieval-augmented generation, agentic workflows and evaluation** into an application-oriented system.
+Answers questions about company filings with citations, and calculates figures only from numbers it has verified.
 
-**Architecture**
+* **Hybrid retrieval** (dense + BM25, rank fusion) with automatic ticker and fiscal-year filtering
+* **LangGraph agent** that routes each question to lookup or calculation. For calculations, an LLM extracts figures, **code verifies each number against the exact filing quote**, and a safe calculator computes the result
+* **Evaluation-first:** hand-written golden sets with sealed test splits. Evaluation caught a real bug (a bracketed loss losing its minus sign), which was fixed and covered by tests
+* **Honest reporting:** failed experiments (a reranker that gave no net gain) are documented, not hidden
+* FastAPI service, Docker, GitHub Actions CI, 200+ automated tests. An OWASP-style red-team harness is in progress
 
-```text
-Data
-  ↓
-Processing
-  ↓
-Retrieval
-  ↓
-RAG / LLM
-  ↓
-Agentic Workflows
-  ↓
-Evaluation
-  ↓
-API
-  ↓
-Docker
-  ↓
-CI/CD
-```
+`Python` · `LangGraph` · `RAG` · `Qdrant` · `FastAPI` · `Docker` · `GitHub Actions`
 
-**Focus:**
-`Python` · `LLMs` · `RAG` · `LangGraph` · `FastAPI` · `Docker` · `GitHub Actions`
+---
+
+### NexusAI
+<!-- Add the repo link here: ### [NexusAI](https://github.com/Ayush-Prasad4/<repo-name>) -->
+
+**Multi-agent intelligence and decision platform for reliable asynchronous AI workflows**
+
+Turns a question into a verified, critiqued analysis, running as background jobs that survive crashes and retries.
+
+* **Multi-agent pipeline (LangGraph):** research, verification, conflict detection, analysis, critique and synthesis, with durable checkpoints in PostgreSQL
+* **Distributed execution:** FastAPI API, Redis Streams queue, dedicated workers
+* **Reliability:** atomic idempotency, retries with backoff, dead-letter handling, stale-job recovery, failure-safe state transitions
+* **Security and operations:** JWT auth with RBAC, rate limiting, request tracing, Prometheus/Grafana monitoring, Docker deployment, CI testing
+* **Validation:** 120+ automated tests and a 50-user infrastructure baseline: 9,065 requests, 0% failures, 151.56 req/s, 8 ms P95 latency
+
+`Python` · `LangGraph` · `FastAPI` · `Redis Streams` · `PostgreSQL` · `Docker` · `Prometheus` · `Grafana`
 
 ---
 
 ### [InferX](https://github.com/Ayush-Prasad4/inferx)
 
-**AI Inference & Model Optimization Platform**
+**AI inference and model optimization platform**
 
-A production-oriented AI systems project focused on **reducing inference latency, improving throughput, optimizing Transformer and LLM workloads, and serving models through monitored APIs**.
+Benchmarks and speeds up Transformer and LLM workloads, then serves them through a monitored API.
 
-**Architecture**
+* ONNX Runtime reduced representative Transformer latency by **~71%** vs PyTorch Eager
+* INT8 brought average ONNX latency down to **1.531 ms**
+* FP16 improved measured LLM generation throughput by **~49%**
+* KV-cache optimization improved measured LLM throughput by **~4.5×**
+* Dynamic batching scheduler reached **~893 req/s** in the tested workload
+* FastAPI inference API with monitoring and load testing, containerized with Docker
 
-```text
-Transformer / LLM
-        ↓
-Optimization
-        ↓
-ONNX / INT8 / FP16 / BF16
-        ↓
-Batching & Concurrency
-        ↓
-FastAPI Inference API
-        ↓
-Monitoring
-        ↓
-Load Testing
-        ↓
-Docker / AWS
-        ↓
-CI/CD
-```
-
-**Focus:**
-`PyTorch` · `Transformers` · `ONNX Runtime` · `INT8` · `FP16/BF16` · `FastAPI` · `Docker` · `AWS`
-
-**Engineering results:**
-
-* ONNX Runtime reduced representative Transformer latency by ~71% vs PyTorch Eager
-* INT8 reduced average ONNX latency to **1.531 ms**
-* FP16 improved measured LLM generation throughput by ~49%
-* KV-cache optimization improved measured LLM throughput by ~4.5×
-* Dynamic batching scheduler reached ~893 req/s in the tested workload
+`PyTorch` · `Transformers` · `ONNX Runtime` · `INT8 / FP16 / BF16` · `FastAPI` · `Docker` · `AWS`
 
 ---
 
-## 🧠 AI Engineering
+## 🧠 What I Work On
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Generative AI
-
-* LLM Applications
-* Retrieval-Augmented Generation
-* AI Agents
-* LangChain
-* LangGraph
-* LLM Evaluation
-* Agentic Workflows
-
-</td>
-
-<td width="50%" valign="top">
-
-### AI Systems
-
-* Model Inference
-* Inference Optimization
-* Quantization
-* Batching & Concurrency
-* Performance Benchmarking
-* APIs
-* Monitoring
-* Load Testing
-
-</td>
-</tr>
-</table>
+| Generative AI | AI Systems |
+|---|---|
+| LLM applications | Inference optimization and quantization |
+| Retrieval-Augmented Generation | Batching, concurrency, benchmarking |
+| AI agents and agentic workflows (LangChain, LangGraph) | Async job systems, APIs, monitoring |
+| LLM evaluation | Load testing, CI/CD, containerized deployment |
 
 ---
 
 ## 🛠️ Technical Stack
 
-**Languages**
+**Languages:** `Python` `SQL` `Java`
 
-`Python` `SQL` `Java`
+**Generative AI:** `LangChain` `LangGraph` `RAG` `AI Agents` `LLM Evaluation`
 
-**AI / ML**
+**ML / Inference:** `PyTorch` `Hugging Face Transformers` `ONNX Runtime` `Scikit-learn` `TensorFlow` `vLLM`
 
-`Scikit-learn` `TensorFlow` `PyTorch` `Pandas` `NumPy`
+**Backend & Data:** `FastAPI` `PostgreSQL` `Redis` `Qdrant` `Pandas` `NumPy`
 
-**Generative AI**
-
-`LLMs` `RAG` `LangChain` `LangGraph` `AI Agents`
-
-**Inference & Optimization**
-
-`Hugging Face Transformers` `ONNX Runtime` `INT8` `FP16` `BF16` `vLLM`
-
-**Backend & Engineering**
-
-`FastAPI` `REST APIs` `Pytest` `Git` `Docker`
-
-**Cloud & DevOps**
-
-`AWS` `GitHub Actions` `Kubernetes` `Prometheus` `Grafana` `Locust`
+**DevOps & Observability:** `Docker` `GitHub Actions` `Pytest` `Prometheus` `Grafana` `Locust` `AWS` `Kubernetes` `Git`
 
 ---
 
-## 🔬 Engineering Mindset
+## 🔬 How I Work
 
-I focus on the layer **around the model** — building AI systems that can be evaluated, optimized, tested, monitored and deployed rather than treating an LLM as a standalone component.
+Define the problem, build the simplest thing that could work, **measure it honestly**, and fix what the numbers show. I care about the layer around the model: evaluation, testing, reliability, monitoring and deployment.
 
-```text
-Problem
-   ↓
-Data
-   ↓
-Model / LLM
-   ↓
-Inference / Retrieval
-   ↓
-Reasoning
-   ↓
-Optimization
-   ↓
-Evaluation
-   ↓
-API
-   ↓
-Monitoring
-   ↓
-Deployment
-```
-
----
-
-## 📚 Currently Exploring
-
-`Advanced RAG` · `Agentic AI` · `LLM Evaluation`
-`Inference Engineering` · `AI System Design` · `MLOps` · `Cloud AI`
+`Problem → Data → Model / LLM → Retrieval / Inference → Evaluation → API → Monitoring → Deployment`
 
 ---
 
 ## 🎓 Education
 
-**MSc Data Science**
-University of Milano-Bicocca · Milan, Italy
-
-**B.Tech Computer Science & Engineering**
-Siksha 'O' Anusandhan · Bhubaneswar, India
+**MSc Data Science**, University of Milano-Bicocca · Milan, Italy
+**B.Tech Computer Science & Engineering**, Siksha 'O' Anusandhan · Bhubaneswar, India
 
 ---
 
-## 🤝 Connect
+## 🤝 Let's Connect
 
-I'm interested in **AI Engineering, Generative AI, Inference Engineering, Machine Learning and applied AI systems**.
-
-**[LinkedIn](https://www.linkedin.com/in/ayush-prasad-ds/)** · **[Portfolio](https://ayushprasad.dev/)** · **[Email](mailto:ayush@ayushprasad.dev)**
-
-<br>
-
-<sub>Building · Optimizing · Evaluating · Deploying AI Systems</sub>
+I'm looking for **AI Engineering, Generative AI and ML Engineering** roles in Europe. If your team ships LLM features and cares about reliability, reach out: **[LinkedIn](https://www.linkedin.com/in/ayush-prasad-ds/)** · **[Email](mailto:ayush@ayushprasad.dev)** · **[Portfolio](https://ayushprasad.dev/)**
