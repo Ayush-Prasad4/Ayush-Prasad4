@@ -54,8 +54,7 @@ Answers questions about company filings with citations, and calculates figures o
 
 ---
 
-### NexusAI
-<!-- Add the repo link here: ### [NexusAI](https://github.com/Ayush-Prasad4/<repo-name>) -->
+### [LNexusAi](https://github.com/Ayush-Prasad4/nexusai)
 
 **Multi-agent intelligence and decision platform for reliable asynchronous AI workflows**
 
