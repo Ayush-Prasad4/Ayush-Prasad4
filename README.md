@@ -33,7 +33,7 @@ I build LLM systems that can be **evaluated, tested, monitored and deployed**, n
 | Project | What it is | Highlights |
 |---|---|---|
 | [**LedgerLens**](https://github.com/Ayush-Prasad4/ledgerlens) | Agentic RAG over SEC 10-K filings | Every number verified against its source quote · sealed test splits · 200+ tests |
-| [**LNexusAi**](https://github.com/Ayush-Prasad4/nexusai) | Multi-agent platform for async AI workflows | Redis Streams + workers · idempotency, retries, dead-letter queue · 120+ tests |
+| [**NexusAi**](https://github.com/Ayush-Prasad4/nexusai) | Multi-agent platform for async AI workflows | Redis Streams + workers · idempotency, retries, dead-letter queue · 120+ tests |
 | [**InferX**](https://github.com/Ayush-Prasad4/inferx) | LLM / Transformer inference optimization | ONNX Runtime ~71% lower latency · KV-cache ~4.5× throughput |
 
 ---
@@ -54,7 +54,7 @@ Answers questions about company filings with citations, and calculates figures o
 
 ---
 
-### [LNexusAi](https://github.com/Ayush-Prasad4/nexusai)
+### [NexusAi](https://github.com/Ayush-Prasad4/nexusai)
 
 **Multi-agent intelligence and decision platform for reliable asynchronous AI workflows**
 
