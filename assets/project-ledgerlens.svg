@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p1-t">
+  <title id="p1-t">LedgerLens: agentic RAG over 14 SEC 10-K filings with verify-before-compute.</title>
+  <defs>
+    <linearGradient id="p1-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1426"/><stop offset="1" stop-color="#070D1A"/></linearGradient>
+    <radialGradient id="p1-glow" cx="82%" cy="30%" r="55%"><stop offset="0" stop-color="#1D4ED8" stop-opacity=".6"/><stop offset="1" stop-color="#1E3A8A" stop-opacity="0"/></radialGradient>
+    <pattern id="p1-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#3B82F6" stroke-opacity=".08"/></pattern>
+    <filter id="p1-glowf" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="p1-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+    <linearGradient id="p1-trace" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EFF6FF"/><stop offset=".45" stop-color="#93C5FD"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    .p1-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .p1-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p1-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+
+    .p1-in { animation: p1-in 1.2s cubic-bezier(.16,1,.3,1) both; }
+    .p1-d1 { animation-delay: .15s; } .p1-d2 { animation-delay: .4s; }
+    .p1-chip { animation: p1-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    .p1-draw { stroke-dasharray: 700; stroke-dashoffset: 700; animation: p1-draw 2s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    .p1-trace { stroke-dasharray: 564 3136; stroke-dashoffset: 3700; animation: p1-trace 7s linear infinite; }
+    @keyframes p1-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes p1-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes p1-draw { to { stroke-dashoffset: 0; } }
+    @keyframes p1-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .p1-in, .p1-chip { animation: none; } .p1-draw { animation: none; stroke-dashoffset: 0; } .p1-trace { display: none; } }
+  </style>
+  <g clip-path="url(#p1-clip)">
+    <rect width="1200" height="370" fill="url(#p1-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#p1-grid)"/>
+    <rect width="1200" height="370" fill="url(#p1-glow)"/>
+    <g class="p1-in p1-d1">
+      <text class="p1-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#3B82F6">01 · RAG · AGENTS · EVALS · SECURITY</text>
+      <text class="p1-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#EFF6FF">LedgerLens</text>
+      <text class="p1-sans" x="56" y="166" font-size="17" fill="#9FB3D1">Cited answers over SEC filings, or an honest refusal.</text>
+      <text class="p1-mono" x="56" y="200" font-size="12.5" fill="#93C5FD"><tspan fill="#3B82F6">BUILT ›</tspan> agentic RAG over 14 SEC 10-K filings · 4,298 chunks · hybrid dense + BM25</text>
+      <line class="p1-draw" x1="56" y1="226" x2="680" y2="226" stroke="#3B82F6" stroke-opacity=".32"/>
+      
+    <g transform="translate(56 256)"><text class="p1-serif" font-size="34" font-weight="300" fill="#EFF6FF">7/8</text><text class="p1-sans" y="22" font-size="12.5" fill="#9FB3D1">calculation accuracy</text><text class="p1-sans" y="38" font-size="12" fill="#9FB3D1" fill-opacity=".75">sealed test sets</text></g>
+    <g transform="translate(261 256)"><text class="p1-serif" font-size="34" font-weight="300" fill="#EFF6FF">30<tspan font-size="22" dx="8" fill="#3B82F6">→</tspan><tspan dx="8">50%</tspan></text><text class="p1-sans" y="22" font-size="12.5" fill="#9FB3D1">hit@1 via ticker/year filter</text><text class="p1-sans" y="38" font-size="12" fill="#9FB3D1" fill-opacity=".75">10-query evaluation</text></g>
+    <g transform="translate(466 256)"><text class="p1-serif" font-size="34" font-weight="300" fill="#EFF6FF">3/3<tspan font-size="22" dx="8" fill="#3B82F6">→</tspan><tspan dx="8">0/4</tspan></text><text class="p1-sans" y="22" font-size="12.5" fill="#9FB3D1">injection success, dev attacks</text><text class="p1-sans" y="38" font-size="12" fill="#9FB3D1" fill-opacity=".75">after prompt hardening</text></g>
+      <g class="p1-chip" style="animation-delay:1.00s"><rect x="56" y="322" width="69" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p1-mono" x="90.5" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">Python</text></g><g class="p1-chip" style="animation-delay:1.12s"><rect x="133" y="322" width="90" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p1-mono" x="178.0" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">LangGraph</text></g><g class="p1-chip" style="animation-delay:1.24s"><rect x="231" y="322" width="76" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p1-mono" x="269.0" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">FastAPI</text></g><g class="p1-chip" style="animation-delay:1.36s"><rect x="315" y="322" width="69" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p1-mono" x="349.5" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">Qdrant</text></g><g class="p1-chip" style="animation-delay:1.48s"><rect x="392" y="322" width="69" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p1-mono" x="426.5" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">Docker</text></g><g class="p1-chip" style="animation-delay:1.60s"><rect x="469" y="322" width="141" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p1-mono" x="539.5" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">OWASP LLM Top 10</text></g>
+    </g>
+    <g class="p1-in p1-d2">
+        <g><rect x="880" y="40" width="270" height="44" rx="10" fill="#0F1B33" stroke="#3B82F6" stroke-opacity=".32"/>
+        <text class="p1-mono" x="894" y="59" font-size="10.5" letter-spacing="1.4" fill="#93C5FD">QUESTION</text>
+        <text class="p1-sans" x="894" y="75" font-size="12" fill="#9FB3D1">ticker + fiscal year parsed</text></g><path d="M1015.0 84 V98" stroke="#3B82F6" stroke-opacity=".5"/><path d="M1011.0 92 l4 6 l4 -6" fill="none" stroke="#3B82F6" stroke-opacity=".7"/>
+        <g><rect x="880" y="98" width="270" height="44" rx="10" fill="#0F1B33" stroke="#3B82F6" stroke-opacity=".32"/>
+        <text class="p1-mono" x="894" y="117" font-size="10.5" letter-spacing="1.4" fill="#93C5FD">HYBRID RETRIEVAL</text>
+        <text class="p1-sans" x="894" y="133" font-size="12" fill="#9FB3D1">dense + BM25 over 10-K chunks</text></g><path d="M1015.0 142 V156" stroke="#3B82F6" stroke-opacity=".5"/><path d="M1011.0 150 l4 6 l4 -6" fill="none" stroke="#3B82F6" stroke-opacity=".7"/>
+        <g><rect x="880" y="156" width="270" height="44" rx="10" fill="#0F1B33" stroke="#3B82F6" stroke-opacity=".32"/>
+        <text class="p1-mono" x="894" y="175" font-size="10.5" letter-spacing="1.4" fill="#93C5FD">VERIFY</text>
+        <text class="p1-sans" x="894" y="191" font-size="12" fill="#9FB3D1">figures must match filing evidence</text></g><path d="M1015.0 200 V214" stroke="#3B82F6" stroke-opacity=".5"/><path d="M1011.0 208 l4 6 l4 -6" fill="none" stroke="#3B82F6" stroke-opacity=".7"/>
+        <g><rect x="880" y="214" width="270" height="44" rx="10" fill="#0F1B33" stroke="#3B82F6" stroke-opacity=".32"/>
+        <text class="p1-mono" x="894" y="233" font-size="10.5" letter-spacing="1.4" fill="#93C5FD">AST CALCULATION</text>
+        <text class="p1-sans" x="894" y="249" font-size="12" fill="#9FB3D1">deterministic, never guessed</text></g><path d="M1015.0 258 V272" stroke="#3B82F6" stroke-opacity=".5"/><path d="M1011.0 266 l4 6 l4 -6" fill="none" stroke="#3B82F6" stroke-opacity=".7"/>
+        <g><rect x="880" y="272" width="270" height="44" rx="10" fill="#0F1B33" stroke="#93C5FD" stroke-opacity=".7"/>
+        <text class="p1-mono" x="894" y="291" font-size="10.5" letter-spacing="1.4" fill="#93C5FD">CITED ANSWER</text>
+        <text class="p1-sans" x="894" y="307" font-size="12" fill="#9FB3D1">or a refusal</text></g><circle r="3.5" fill="#EFF6FF" filter="url(#p1-glowf)"><animateMotion dur="4.5s" repeatCount="indefinite" path="M866 62 V294"/></circle><path d="M866 62 V294" stroke="#3B82F6" stroke-opacity=".25" stroke-dasharray="2 5"/></g>
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#3B82F6" stroke-opacity=".22"/>
+    <rect class="p1-trace" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p1-trace)" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>

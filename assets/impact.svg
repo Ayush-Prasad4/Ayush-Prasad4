@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-labelledby="ach-title ach-desc">
+  <title id="ach-title">Impact in numbers</title>
+  <desc id="ach-desc">InferX: DistilBERT latency cut from 14.96 ms on PyTorch eager to 4.35 ms with ONNX FP32 and 1.53 ms with INT8, nearly 10 times faster. FP16 raised Qwen2.5-0.5B generation throughput by about 49 percent. A Locust load test on AWS served 1,674 requests with 0 percent failures. LedgerLens: 7 of 8 calculation questions correct on sealed test sets; ticker/year filtering lifted hit@1 from 30 to 50 percent on 10 queries; prompt hardening cut injection success on dev attacks from 3 of 3 to 0 of 4. NexusAI: more than 120 automated tests.</desc>
+  <defs>
+    <linearGradient id="ach-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B1426"/><stop offset="1" stop-color="#070D1A"/></linearGradient>
+    <radialGradient id="ach-glow-a" cx="85%" cy="0%" r="90%"><stop offset="0" stop-color="#1D4ED8" stop-opacity=".7"/><stop offset="1" stop-color="#1E3A8A" stop-opacity="0"/></radialGradient>
+    <clipPath id="ach-clip-a"><rect width="700" height="250" rx="16"/></clipPath>
+    <clipPath id="ach-clip-b"><rect width="428" height="250" rx="16"/></clipPath>
+    <filter id="ach-glowf" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .ach-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ach-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ach-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+
+    .ach-in { animation: ach-in 1.2s cubic-bezier(.16,1,.3,1) both; }
+    .a1 { animation-delay: .1s; } .a2 { animation-delay: .35s; } .a3 { animation-delay: .6s; }
+    .ach-bar { transform-box: fill-box; transform-origin: left center; animation: ach-bar 1.4s cubic-bezier(.65,0,.35,1) both; }
+    @keyframes ach-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @keyframes ach-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) { .ach-in, .ach-bar { animation: none; } }
+  </style>
+  <rect width="1200" height="430" rx="20" fill="url(#ach-bg)"/>
+  <rect x=".5" y=".5" width="1199" height="429" rx="19.5" fill="none" stroke="#3B82F6" stroke-opacity=".18"/>
+
+  <g class="ach-in a1"><g transform="translate(24 24)">
+    <g clip-path="url(#ach-clip-a)">
+      <rect width="700" height="250" fill="#0B1426"/>
+      <rect width="700" height="250" fill="url(#ach-glow-a)"/>
+    </g>
+    <rect x=".5" y=".5" width="699" height="249" rx="15.5" fill="none" stroke="#3B82F6" stroke-opacity=".3"/>
+    <text class="ach-mono" x="32" y="42" font-size="10.5" letter-spacing="2.2" fill="#3B82F6">INFERX · DISTILBERT LATENCY</text>
+    <text class="ach-serif" x="30" y="140" font-size="100" font-weight="300" letter-spacing="-3" fill="#EFF6FF">≈10×</text>
+    <text class="ach-sans" x="32" y="176" font-size="15" fill="#9FB3D1">faster than PyTorch eager</text>
+    <text class="ach-mono" x="32" y="204" font-size="11.5" fill="#93C5FD">14.96 ms → 1.53 ms (INT8)</text>
+    <text class="ach-mono" x="32" y="222" font-size="11" fill="#9FB3D1">ONNX FP32 in between: 4.35 ms</text>
+    <g>
+      <text class="ach-mono" x="372" y="64" font-size="10.5" letter-spacing="1.2" fill="#9FB3D1">PYTORCH EAGER</text>
+      <rect class="ach-bar" style="animation-delay:0.6s" x="372" y="74" width="230.0" height="16" rx="4" fill="#1E3A8A"/>
+      <text class="ach-mono" x="612.0" y="87" font-size="12" fill="#EFF6FF">14.96 ms</text>
+      <text class="ach-mono" x="372" y="118" font-size="10.5" letter-spacing="1.2" fill="#9FB3D1">ONNX RUNTIME FP32</text>
+      <rect class="ach-bar" style="animation-delay:0.85s" x="372" y="128" width="66.9" height="16" rx="4" fill="#3B82F6"/>
+      <text class="ach-mono" x="448.9" y="141" font-size="12" fill="#EFF6FF">4.35 ms</text>
+      <text class="ach-mono" x="372" y="172" font-size="10.5" letter-spacing="1.2" fill="#9FB3D1">ONNX RUNTIME INT8</text>
+      <rect class="ach-bar" style="animation-delay:1.1s" x="372" y="182" width="23.5" height="16" rx="4" fill="#93C5FD" filter="url(#ach-glowf)"/>
+      <text class="ach-mono" x="405.5" y="195" font-size="12" fill="#EFF6FF">1.53 ms</text>
+      <text class="ach-mono" x="372" y="228" font-size="10" letter-spacing="1.4" fill="#9FB3D1" fill-opacity=".7">LOWER IS BETTER</text>
+    </g>
+  </g></g>
+
+  <g class="ach-in a2"><g transform="translate(748 24)">
+    <g clip-path="url(#ach-clip-b)">
+      <rect width="428" height="250" fill="#0B1426"/>
+      <rect width="428" height="250" fill="url(#ach-glow-a)"/>
+    </g>
+    <rect x=".5" y=".5" width="427" height="249" rx="15.5" fill="none" stroke="#3B82F6" stroke-opacity=".3"/>
+    <text class="ach-mono" x="28" y="42" font-size="10.5" letter-spacing="2.2" fill="#3B82F6">INFERX · LOAD TEST ON AWS</text>
+    <text class="ach-serif" x="26" y="128" font-size="84" font-weight="300" letter-spacing="-2" fill="#EFF6FF">0%</text>
+    <text class="ach-sans" x="28" y="158" font-size="15" fill="#9FB3D1">failed requests</text>
+    <text class="ach-mono" x="28" y="180" font-size="11.5" fill="#93C5FD">1,674 requests served · Locust</text>
+    <line x1="28" y1="196" x2="400" y2="196" stroke="#3B82F6" stroke-opacity=".25"/>
+    <text class="ach-serif" x="28" y="234" font-size="34" font-weight="300" fill="#EFF6FF">+49%</text>
+    <text class="ach-sans" x="124" y="222" font-size="12.5" fill="#9FB3D1">Qwen2.5-0.5B generation</text>
+    <text class="ach-sans" x="124" y="239" font-size="12.5" fill="#9FB3D1">throughput with FP16</text>
+  </g></g>
+  
+  <g class="ach-in a1"><g transform="translate(24 298)">
+    <rect width="270" height="108" rx="14" fill="#0B1426" stroke="#3B82F6" stroke-opacity=".24"/>
+    <rect width="3" height="108" rx="1.5" fill="#3B82F6"/>
+    <text class="ach-mono" x="22" y="26" font-size="10" letter-spacing="1.8" fill="#3B82F6">LEDGERLENS · CALC EVAL</text>
+    <text class="ach-serif" x="22" y="66" font-size="36" font-weight="300" fill="#EFF6FF">7/8</text>
+    <text class="ach-sans" x="22" y="86" font-size="12.5" fill="#9FB3D1">calculation accuracy</text>
+    <text class="ach-sans" x="22" y="101" font-size="11.5" fill="#9FB3D1" fill-opacity=".75">sealed test set</text>
+  </g></g>
+  <g class="ach-in a2"><g transform="translate(318 298)">
+    <rect width="270" height="108" rx="14" fill="#0B1426" stroke="#3B82F6" stroke-opacity=".24"/>
+    <rect width="3" height="108" rx="1.5" fill="#3B82F6"/>
+    <text class="ach-mono" x="22" y="26" font-size="10" letter-spacing="1.8" fill="#3B82F6">LEDGERLENS · RETRIEVAL</text>
+    <text class="ach-serif" x="22" y="66" font-size="36" font-weight="300" fill="#EFF6FF">30<tspan class="ach-mono" dx="8" font-size="22" fill="#3B82F6">→</tspan><tspan dx="8">50%</tspan></text>
+    <text class="ach-sans" x="22" y="86" font-size="12.5" fill="#9FB3D1">hit@1 with ticker/year filter</text>
+    <text class="ach-sans" x="22" y="101" font-size="11.5" fill="#9FB3D1" fill-opacity=".75">10-query evaluation</text>
+  </g></g>
+  <g class="ach-in a3"><g transform="translate(612 298)">
+    <rect width="270" height="108" rx="14" fill="#0B1426" stroke="#3B82F6" stroke-opacity=".24"/>
+    <rect width="3" height="108" rx="1.5" fill="#3B82F6"/>
+    <text class="ach-mono" x="22" y="26" font-size="10" letter-spacing="1.8" fill="#3B82F6">LEDGERLENS · RED TEAM</text>
+    <text class="ach-serif" x="22" y="66" font-size="36" font-weight="300" fill="#EFF6FF">3/3<tspan class="ach-mono" dx="8" font-size="22" fill="#3B82F6">→</tspan><tspan dx="8">0/4</tspan></text>
+    <text class="ach-sans" x="22" y="86" font-size="12.5" fill="#9FB3D1">injection success, dev attacks</text>
+    <text class="ach-sans" x="22" y="101" font-size="11.5" fill="#9FB3D1" fill-opacity=".75">after prompt hardening</text>
+  </g></g>
+  <g class="ach-in a3"><g transform="translate(906 298)">
+    <rect width="270" height="108" rx="14" fill="#0B1426" stroke="#3B82F6" stroke-opacity=".24"/>
+    <rect width="3" height="108" rx="1.5" fill="#3B82F6"/>
+    <text class="ach-mono" x="22" y="26" font-size="10" letter-spacing="1.8" fill="#3B82F6">NEXUSAI · RELIABILITY</text>
+    <text class="ach-serif" x="22" y="66" font-size="36" font-weight="300" fill="#EFF6FF">120+</text>
+    <text class="ach-sans" x="22" y="86" font-size="12.5" fill="#9FB3D1">automated tests</text>
+    <text class="ach-sans" x="22" y="101" font-size="11.5" fill="#9FB3D1" fill-opacity=".75">idempotency · retries · dead-letter</text>
+  </g></g>
+</svg>

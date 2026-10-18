@@ -1,132 +1,59 @@
-<div align="center">
-
-# AYUSH PRASAD
-
-### AI Engineer · Generative AI · Inference Engineering
-
-**MSc Data Science @ University of Milano-Bicocca · Milan, Italy 🇮🇹**
-
-I build LLM systems that can be **evaluated, tested, monitored and deployed**, not just demoed.
-
-<br>
-
-<a href="https://www.linkedin.com/in/ayush-prasad-ds/">
-  <img src="https://img.shields.io/badge/LinkedIn-Profile-292929?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="https://ayushprasad.dev/">
-  <img src="https://img.shields.io/badge/Portfolio-Website-292929?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio">
-</a>
-<a href="mailto:ayush@ayushprasad.dev">
-  <img src="https://img.shields.io/badge/Email-ayush@ayushprasad.dev-292929?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+<a href="https://ayushprasad.dev">
+  <img src="assets/hero.svg" width="100%" alt="Ayush Prasad: AI/ML Engineer and MSc Data Science candidate. LLM systems with evaluation, security and reliability built in. Open to relocation, Europe.">
 </a>
 
-<br><br>
+<p align="center">
+  <a href="https://ayushprasad.dev"><img src="https://img.shields.io/badge/Portfolio-ayushprasad.dev-1D4ED8?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2bPHBhdGggZmlsbD0iI0VGRjZGRiIgZD0iTTEyIDJhMTAgMTAgMCAxIDAgMCAyMCAxMCAxMCAwIDAgMCAwLTIwWm02LjkgOWgtMy4xYTE1LjcgMTUuNyAwIDAgMC0xLjQtNkE4IDggMCAwIDEgMTguOSAxMVpNMTIgNGMuOSAxLjIgMS42IDMuMyAxLjggN2gtMy42QzEwLjQgNy4zIDExLjEgNS4yIDEyIDRaTTQuMyAxM2gzLjFjLjEgMi4yLjYgNC4zIDEuNCA2QTggOCAwIDAgMSA0LjMgMTNabTMuMS0ySDQuM2E4IDggMCAwIDEgNC41LTZjLS44IDEuNzAwLTEuMzAwIDMuODAwLTEuNDAwIDZaTTEyIDIwYy0uOS0xLjIwMC0xLjYwMC0zLjMwMC0xLjgwMC03aDMuNjAwYy0uMiAzLjcwMC0uOSA1LjgwMC0xLjgwMCA3Wm0zLjIwMC0xYy44LTEuNzAwIDEuMzAwLTMuODAwIDEuNDAwLTZoMy4xMDBhOCA4IDAgMCAxLTQuNTAwIDZaIi8%2bPC9zdmc%2b" alt="Portfolio website ayushprasad.dev"></a>
+  <a href="https://www.linkedin.com/in/ayush-prasad-ds"><img src="https://img.shields.io/badge/LinkedIn-ayush--prasad--ds-1D4ED8?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0Y4RjBGMyIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NiAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjhaTTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTNaTTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDVaTTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMFoiLz48L3N2Zz4=" alt="LinkedIn profile ayush-prasad-ds"></a>
+  <a href="https://github.com/Ayush-Prasad4"><img src="https://img.shields.io/badge/GitHub-Ayush--Prasad4-1D4ED8?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2bPHBhdGggZmlsbD0iI0VGRjZGRiIgZD0iTTEyIC4zYTEyIDEyIDAgMCAwLTMuODAwIDIzLjQwMGMuNi4xLjgtLjMuOC0uNnYtMmMtMy4zMDAuNy00LTEuNjAwLTQtMS42MDAtLjYtMS40MDAtMS40MDAtMS44MDAtMS40MDAtMS44MDAtMS0uNy4xLS43LjEtLjcgMS4yMDAuMSAxLjgwMCAxLjIwMCAxLjgwMCAxLjIwMCAxIDEuODAwIDIuODAwIDEuMzAwIDMuNTAwIDEgLjEtLjguNC0xLjMwMC44LTEuNjAwLTIuNzAwLS4zLTUuNTAwLTEuMzAwLTUuNTAwLTUuOTAwIDAtMS4zMDAuNS0yLjQwMCAxLjIwMC0zLjIwMC0uMS0uMy0uNS0xLjUwMC4xLTMuMjAwIDAgMCAxLS4zIDMuMzAwIDEuMjAwYTExLjUwMCAxMS41MDAgMCAwIDEgNiAwYzIuMzAwLTEuNTAwIDMuMzAwLTEuMjAwIDMuMzAwLTEuMjAwLjcgMS43MDAuMiAyLjkwMC4xIDMuMjAwLjguODAwIDEuMjAwIDEuOTAwIDEuMjAwIDMuMjAwIDAgNC42MDAtMi44MDAgNS42MDAtNS41MDAgNS45MDAuNC40MDAuOCAxLjEwMC44IDIuMjAwdjMuMzAwYzAgLjMuMi43LjguNkExMiAxMiAwIDAgMCAxMiAuM1oiLz48L3N2Zz4=" alt="GitHub profile Ayush-Prasad4"></a>
+  <a href="mailto:ayush@ayushprasad.dev"><img src="https://img.shields.io/badge/Email-ayush@ayushprasad.dev-1D4ED8?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2bPHBhdGggZmlsbD0iI0VGRjZGRiIgZD0iTTIgNS41QTIuNSAyLjUgMCAwIDEgNC41IDNoMTVBMi41IDIuNSAwIDAgMSAyMiA1LjV2MTNhMi41IDIuNSAwIDAgMS0yLjUgMi41aC0xNUEyLjUgMi41IDAgMCAxIDIgMTguNXYtMTNabTIuMy4yIDcuNyA1LjkgNy43LTUuOWEuNS41IDAgMCAwLS4yIDBoLTE1YS41LjUgMCAwIDAtLjIgMFptMTUuNyAyLjQtNy40IDUuN2ExIDEgMCAwIDEtMS4yIDBMNCA4LjF2MTAuNGEuNS41IDAgMCAwIC41LjVoMTVhLjUuNSAwIDAgMCAuNS0uNVY4LjFaIi8%2bPC9zdmc%2b" alt="Email ayush@ayushprasad.dev"></a>
+</p>
 
-**Open to AI / ML Engineer roles in Europe**
+<img src="assets/title-about.svg" width="100%" alt="01 About: Hello, I'm Ayush.">
+<img src="assets/about-intro.svg" width="100%" alt="About: AI/ML Engineer and MSc Data Science candidate at the University of Milano-Bicocca, graduating July 2027, with a B.Tech in Computer Science and Engineering (2024). Builds production-grade LLM applications, RAG systems and model-inference pipelines in Python with a focus on evaluation, security and reliability. Shipped LedgerLens, InferX and NexusAI. Primary language Python; works with LangGraph, FastAPI, PyTorch, Docker and CI/CD.">
 
-</div>
+<img src="assets/title-impact.svg" width="100%" alt="02 Impact: Proof, in numbers.">
+<img src="assets/impact.svg" width="100%" alt="Impact in numbers. InferX: DistilBERT latency from 14.96 ms (PyTorch eager) to 1.53 ms (INT8), nearly 10 times faster; FP16 raised Qwen2.5-0.5B throughput by about 49 percent; Locust load test on AWS served 1,674 requests with 0 percent failures. LedgerLens: 7 of 8 calculation questions correct on sealed test sets; ticker/year filtering lifted hit@1 from 30 to 50 percent on 10 queries; prompt hardening cut injection success on dev attacks from 3 of 3 to 0 of 4. NexusAI: 120+ automated tests.">
 
----
+<img src="assets/title-work.svg" width="100%" alt="03 Selected work: Systems, not demos.">
 
-## 🚀 Featured Projects
+<a href="https://github.com/Ayush-Prasad4/ledgerlens"><img src="assets/project-ledgerlens.svg" width="100%" alt="LedgerLens: agentic RAG over 14 SEC 10-K filings (4,298 chunks) with hybrid dense and BM25 retrieval, LangGraph orchestration and a verify-before-compute pipeline that refuses instead of guessing. Includes an OWASP LLM Top 10 red-team harness in CI. Python, LangGraph, FastAPI, Qdrant, Docker."></a>
+<p align="center">
+  <a href="https://github.com/Ayush-Prasad4/ledgerlens"><img src="https://img.shields.io/badge/Repository-LedgerLens-1E3A8A?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=github" alt="LedgerLens repository"></a>
+</p>
 
-| Project | What it is | Highlights |
-|---|---|---|
-| [**LedgerLens**](https://github.com/Ayush-Prasad4/ledgerlens) | Agentic RAG over SEC 10-K filings | Every number verified against its source quote · sealed test splits · 200+ tests |
-| [**NexusAi**](https://github.com/Ayush-Prasad4/nexusai) | Multi-agent platform for async AI workflows | Redis Streams + workers · idempotency, retries, dead-letter queue · 120+ tests |
-| [**InferX**](https://github.com/Ayush-Prasad4/inferx) | LLM / Transformer inference optimization | ONNX Runtime ~71% lower latency · KV-cache ~4.5× throughput |
+<a href="https://github.com/Ayush-Prasad4/inferx"><img src="assets/project-inferx.svg" width="100%" alt="InferX: AI inference optimization platform for Transformer and LLM workloads. DistilBERT latency 14.96 ms to 1.53 ms (INT8), FP16 raised Qwen2.5-0.5B throughput about 49 percent, 1,674 requests on AWS with 0 percent failures. PyTorch, ONNX Runtime, FastAPI, Docker, AWS, Locust."></a>
+<p align="center">
+  <a href="https://github.com/Ayush-Prasad4/inferx"><img src="https://img.shields.io/badge/Repository-InferX-1E3A8A?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=github" alt="InferX repository"></a>
+</p>
 
----
+<a href="https://github.com/Ayush-Prasad4/nexusai"><img src="assets/project-nexusai.svg" width="100%" alt="NexusAI: multi-agent decision platform in LangGraph and FastAPI (research, verification, conflict detection, critique, synthesis) running as an asynchronous workflow on Redis Streams workers and PostgreSQL checkpoints, with atomic idempotency, retries, dead-letter handling, JWT/RBAC, Prometheus/Grafana observability and 120+ automated tests."></a>
+<p align="center">
+  <a href="https://github.com/Ayush-Prasad4/nexusai"><img src="https://img.shields.io/badge/Repository-NexusAI-1E3A8A?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=github" alt="NexusAI repository"></a>
+</p>
 
-### [LedgerLens](https://github.com/Ayush-Prasad4/ledgerlens)
+<img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit: The tools I reach for.">
+<img src="assets/tech-stack.svg" width="100%" alt="Tech stack. Languages and backend: Python, SQL, FastAPI, Pydantic, PostgreSQL, Redis, Pytest. GenAI and agents: LLMs, RAG with hybrid dense and BM25 retrieval, LangChain, LangGraph, structured outputs, RAG and agent evaluation, OWASP LLM Top 10. ML and inference: PyTorch, Hugging Face Transformers, ONNX Runtime, INT8 quantization, FP16/BF16, dynamic batching, benchmarking. MLOps and cloud: Docker, Git, GitHub Actions, Prometheus, Grafana, Locust, AWS. Data and ML: Scikit-learn, Pandas, NumPy, time-series forecasting. Evaluation and security: golden sets, sealed test splits, red-team harness, regression tests in CI.">
 
-**Agentic RAG assistant for SEC 10-K filings, built evaluation-first**
+<img src="assets/title-commits.svg" width="100%" alt="05 Commit log: A year of building.">
+<img src="assets/contribution-snake.svg" width="100%" alt="Animated snake eating my real public GitHub contributions over the past year, with totals, active days, longest streak and busiest day. Re-rendered daily.">
 
-Answers questions about company filings with citations, and calculates figures only from numbers it has verified.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ayush-Prasad4&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=0B1426&title_color=93C5FD&text_color=9FB3D1&icon_color=3B82F6&custom_title=GitHub%20at%20a%20glance" width="400" alt="GitHub stats for Ayush-Prasad4: stars, commits, pull requests and issues">
+</p>
 
-* **Hybrid retrieval** (dense + BM25, rank fusion) with automatic ticker and fiscal-year filtering
-* **LangGraph agent** that routes each question to lookup or calculation. For calculations, an LLM extracts figures, **code verifies each number against the exact filing quote**, and a safe calculator computes the result
-* **Evaluation-first:** hand-written golden sets with sealed test splits. Evaluation caught a real bug (a bracketed loss losing its minus sign), which was fixed and covered by tests
-* **Honest reporting:** failed experiments (a reranker that gave no net gain) are documented, not hidden
-* FastAPI service, Docker, GitHub Actions CI, 200+ automated tests. An OWASP-style red-team harness is in progress
+<img src="assets/title-credentials.svg" width="100%" alt="06 Credentials: Learning, on the record.">
+<img src="assets/credentials.svg" width="100%" alt="Credentials. MSc Data Science at the University of Milano-Bicocca (October 2025 to July 2027, expected). B.Tech Computer Science and Engineering at Siksha 'O' Anusandhan (2020 to 2024). Machine Learning Specialization by DeepLearning.AI and Stanford. Co-author of an IEEE paper submission on machine learning and multi-task and meta-learning. English C1, German A1. Open to relocation.">
 
-`Python` · `LangGraph` · `RAG` · `Qdrant` · `FastAPI` · `Docker` · `GitHub Actions`
+<img src="assets/title-connect.svg" width="100%" alt="07 Connect: Let's build something reliable.">
 
----
+<p align="center">
+  <a href="mailto:ayush@ayushprasad.dev"><img src="https://img.shields.io/badge/Email-ayush@ayushprasad.dev-1D4ED8?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2bPHBhdGggZmlsbD0iI0VGRjZGRiIgZD0iTTIgNS41QTIuNSAyLjUgMCAwIDEgNC41IDNoMTVBMi41IDIuNSAwIDAgMSAyMiA1LjV2MTNhMi41IDIuNSAwIDAgMS0yLjUgMi41aC0xNUEyLjUgMi41IDAgMCAxIDIgMTguNXYtMTNabTIuMy4yIDcuNyA1LjkgNy43LTUuOWEuNS41IDAgMCAwLS4yIDBoLTE1YS41LjUgMCAwIDAtLjIgMFptMTUuNyAyLjQtNy40IDUuN2ExIDEgMCAwIDEtMS4yIDBMNCA4LjF2MTAuNGEuNS41IDAgMCAwIC41LjVoMTVhLjUuNSAwIDAgMCAuNS0uNVY4LjFaIi8%2bPC9zdmc%2b" alt="Email ayush@ayushprasad.dev"></a>
+  <a href="https://www.linkedin.com/in/ayush-prasad-ds"><img src="https://img.shields.io/badge/LinkedIn-ayush--prasad--ds-1D4ED8?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0Y4RjBGMyIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NiAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjhaTTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTNaTTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDVaTTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMFoiLz48L3N2Zz4=" alt="LinkedIn profile ayush-prasad-ds"></a>
+  <a href="https://ayushprasad.dev"><img src="https://img.shields.io/badge/Portfolio-ayushprasad.dev-1D4ED8?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2bPHBhdGggZmlsbD0iI0VGRjZGRiIgZD0iTTEyIDJhMTAgMTAgMCAxIDAgMCAyMCAxMCAxMCAwIDAgMCAwLTIwWm02LjkgOWgtMy4xYTE1LjcgMTUuNyAwIDAgMC0xLjQtNkE4IDggMCAwIDEgMTguOSAxMVpNMTIgNGMuOSAxLjIgMS42IDMuMyAxLjggN2gtMy42QzEwLjQgNy4zIDExLjEgNS4yIDEyIDRaTTQuMyAxM2gzLjFjLjEgMi4yLjYgNC4zIDEuNCA2QTggOCAwIDAgMSA0LjMgMTNabTMuMS0ySDQuM2E4IDggMCAwIDEgNC41LTZjLS44IDEuNzAwLTEuMzAwIDMuODAwLTEuNDAwIDZaTTEyIDIwYy0uOS0xLjIwMC0xLjYwMC0zLjMwMC0xLjgwMC03aDMuNjAwYy0uMiAzLjcwMC0uOSA1LjgwMC0xLjgwMCA3Wm0zLjIwMC0xYy44LTEuNzAwIDEuMzAwLTMuODAwIDEuNDAwLTZoMy4xMDBhOCA4IDAgMCAxLTQuNTAwIDZaIi8%2bPC9zdmc%2b" alt="Portfolio website ayushprasad.dev"></a>
+  <a href="https://github.com/Ayush-Prasad4"><img src="https://img.shields.io/badge/GitHub-Ayush--Prasad4-1D4ED8?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2bPHBhdGggZmlsbD0iI0VGRjZGRiIgZD0iTTEyIC4zYTEyIDEyIDAgMCAwLTMuODAwIDIzLjQwMGMuNi4xLjgtLjMuOC0uNnYtMmMtMy4zMDAuNy00LTEuNjAwLTQtMS42MDAtLjYtMS40MDAtMS40MDAtMS44MDAtMS40MDAtMS44MDAtMS0uNy4xLS43LjEtLjcgMS4yMDAuMSAxLjgwMCAxLjIwMCAxLjgwMCAxLjIwMCAxIDEuODAwIDIuODAwIDEuMzAwIDMuNTAwIDEgLjEtLjguNC0xLjMwMC44LTEuNjAwLTIuNzAwLS4zLTUuNTAwLTEuMzAwLTUuNTAwLTUuOTAwIDAtMS4zMDAuNS0yLjQwMCAxLjIwMC0zLjIwMC0uMS0uMy0uNS0xLjUwMC4xLTMuMjAwIDAgMCAxLS4zIDMuMzAwIDEuMjAwYTExLjUwMCAxMS41MDAgMCAwIDEgNiAwYzIuMzAwLTEuNTAwIDMuMzAwLTEuMjAwIDMuMzAwLTEuMjAwLjcgMS43MDAuMiAyLjkwMC4xIDMuMjAwLjguODAwIDEuMjAwIDEuOTAwIDEuMjAwIDMuMjAwIDAgNC42MDAtMi44MDAgNS42MDAtNS41MDAgNS45MDAuNC40MDAuOCAxLjEwMC44IDIuMjAwdjMuMzAwYzAgLjMuMi43LjguNkExMiAxMiAwIDAgMCAxMiAuM1oiLz48L3N2Zz4=" alt="GitHub profile Ayush-Prasad4"></a>
+</p>
 
-### [NexusAi](https://github.com/Ayush-Prasad4/nexusai)
-
-**Multi-agent intelligence and decision platform for reliable asynchronous AI workflows**
-
-Turns a question into a verified, critiqued analysis, running as background jobs that survive crashes and retries.
-
-* **Multi-agent pipeline (LangGraph):** research, verification, conflict detection, analysis, critique and synthesis, with durable checkpoints in PostgreSQL
-* **Distributed execution:** FastAPI API, Redis Streams queue, dedicated workers
-* **Reliability:** atomic idempotency, retries with backoff, dead-letter handling, stale-job recovery, failure-safe state transitions
-* **Security and operations:** JWT auth with RBAC, rate limiting, request tracing, Prometheus/Grafana monitoring, Docker deployment, CI testing
-* **Validation:** 120+ automated tests and a 50-user infrastructure baseline: 9,065 requests, 0% failures, 151.56 req/s, 8 ms P95 latency
-
-`Python` · `LangGraph` · `FastAPI` · `Redis Streams` · `PostgreSQL` · `Docker` · `Prometheus` · `Grafana`
-
----
-
-### [InferX](https://github.com/Ayush-Prasad4/inferx)
-
-**AI inference and model optimization platform**
-
-Benchmarks and speeds up Transformer and LLM workloads, then serves them through a monitored API.
-
-* ONNX Runtime reduced representative Transformer latency by **~71%** vs PyTorch Eager
-* INT8 brought average ONNX latency down to **1.531 ms**
-* FP16 improved measured LLM generation throughput by **~49%**
-* KV-cache optimization improved measured LLM throughput by **~4.5×**
-* Dynamic batching scheduler reached **~893 req/s** in the tested workload
-* FastAPI inference API with monitoring and load testing, containerized with Docker
-
-`PyTorch` · `Transformers` · `ONNX Runtime` · `INT8 / FP16 / BF16` · `FastAPI` · `Docker` · `AWS`
-
----
-
-## 🧠 What I Work On
-
-| Generative AI | AI Systems |
-|---|---|
-| LLM applications | Inference optimization and quantization |
-| Retrieval-Augmented Generation | Batching, concurrency, benchmarking |
-| AI agents and agentic workflows (LangChain, LangGraph) | Async job systems, APIs, monitoring |
-| LLM evaluation | Load testing, CI/CD, containerized deployment |
-
----
-
-## 🛠️ Technical Stack
-
-**Languages:** `Python` `SQL` `Java`
-
-**Generative AI:** `LangChain` `LangGraph` `RAG` `AI Agents` `LLM Evaluation`
-
-**ML / Inference:** `PyTorch` `Hugging Face Transformers` `ONNX Runtime` `Scikit-learn` `TensorFlow` `vLLM`
-
-**Backend & Data:** `FastAPI` `PostgreSQL` `Redis` `Qdrant` `Pandas` `NumPy`
-
-**DevOps & Observability:** `Docker` `GitHub Actions` `Pytest` `Prometheus` `Grafana` `Locust` `AWS` `Kubernetes` `Git`
-
----
-
-## 🔬 How I Work
-
-Define the problem, build the simplest thing that could work, **measure it honestly**, and fix what the numbers show. I care about the layer around the model: evaluation, testing, reliability, monitoring and deployment.
-
-`Problem → Data → Model / LLM → Retrieval / Inference → Evaluation → API → Monitoring → Deployment`
-
----
-
-## 🎓 Education
-
-**MSc Data Science**, University of Milano-Bicocca · Milan, Italy
-**B.Tech Computer Science & Engineering**, Siksha 'O' Anusandhan · Bhubaneswar, India
-
----
-
-## 🤝 Let's Connect
-
-I'm looking for **AI Engineering, Generative AI and ML Engineering** roles in Europe. If your team ships LLM features and cares about reliability, reach out: **[LinkedIn](https://www.linkedin.com/in/ayush-prasad-ds/)** · **[Email](mailto:ayush@ayushprasad.dev)** · **[Portfolio](https://ayushprasad.dev/)**
+<a href="https://ayushprasad.dev">
+  <img src="assets/footer-signature.svg" width="100%" alt="Ayush Prasad: building AI systems that are evaluated, secured and reliable.">
+</a>

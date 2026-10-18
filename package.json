@@ -1,0 +1,12 @@
+{
+  "name": "ayush-prasad4-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub profile README for Ayush Prasad: blue-themed SVG sections and a contribution heatmap rendered from real public GitHub data",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "contributions": "node scripts/fetch-contributions.mjs",
+    "heatmap": "node scripts/build-heatmap-svg.mjs"
+  }
+}

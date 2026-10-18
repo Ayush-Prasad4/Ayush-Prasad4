@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p3-t">
+  <title id="p3-t">NexusAI: multi-agent decision platform with reliable asynchronous execution.</title>
+  <defs>
+    <linearGradient id="p3-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1426"/><stop offset="1" stop-color="#070D1A"/></linearGradient>
+    <radialGradient id="p3-glow" cx="82%" cy="30%" r="55%"><stop offset="0" stop-color="#1D4ED8" stop-opacity=".6"/><stop offset="1" stop-color="#1E3A8A" stop-opacity="0"/></radialGradient>
+    <pattern id="p3-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#3B82F6" stroke-opacity=".08"/></pattern>
+    <filter id="p3-glowf" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="p3-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+    <linearGradient id="p3-trace" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EFF6FF"/><stop offset=".45" stop-color="#93C5FD"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    .p3-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .p3-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p3-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+
+    .p3-in { animation: p3-in 1.2s cubic-bezier(.16,1,.3,1) both; }
+    .p3-d1 { animation-delay: .15s; } .p3-d2 { animation-delay: .4s; }
+    .p3-chip { animation: p3-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    .p3-draw { stroke-dasharray: 700; stroke-dashoffset: 700; animation: p3-draw 2s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    .p3-trace { stroke-dasharray: 564 3136; stroke-dashoffset: 3700; animation: p3-trace 7s linear infinite; }
+    @keyframes p3-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes p3-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes p3-draw { to { stroke-dashoffset: 0; } }
+    @keyframes p3-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .p3-in, .p3-chip { animation: none; } .p3-draw { animation: none; stroke-dashoffset: 0; } .p3-trace { display: none; } }
+  </style>
+  <g clip-path="url(#p3-clip)">
+    <rect width="1200" height="370" fill="url(#p3-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#p3-grid)"/>
+    <rect width="1200" height="370" fill="url(#p3-glow)"/>
+    <g class="p3-in p3-d1">
+      <text class="p3-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#3B82F6">03 · MULTI-AGENT · RELIABILITY</text>
+      <text class="p3-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#EFF6FF">NexusAI</text>
+      <text class="p3-sans" x="56" y="166" font-size="17" fill="#9FB3D1">Multi-agent workflows that survive failure.</text>
+      <text class="p3-mono" x="56" y="200" font-size="12.5" fill="#93C5FD"><tspan fill="#3B82F6">BUILT ›</tspan> async LangGraph agents on Redis Streams + PostgreSQL checkpoints</text>
+      <line class="p3-draw" x1="56" y1="226" x2="680" y2="226" stroke="#3B82F6" stroke-opacity=".32"/>
+      
+    <g transform="translate(56 256)"><text class="p3-serif" font-size="34" font-weight="300" fill="#EFF6FF">5</text><text class="p3-sans" y="22" font-size="12.5" fill="#9FB3D1">specialised agents</text><text class="p3-sans" y="38" font-size="12" fill="#9FB3D1" fill-opacity=".75">research → synthesis</text></g>
+    <g transform="translate(261 256)"><text class="p3-serif" font-size="34" font-weight="300" fill="#EFF6FF">120+</text><text class="p3-sans" y="22" font-size="12.5" fill="#9FB3D1">automated tests</text><text class="p3-sans" y="38" font-size="12" fill="#9FB3D1" fill-opacity=".75">validated end to end</text></g>
+    <g transform="translate(466 256)"><text class="p3-serif" font-size="34" font-weight="300" fill="#EFF6FF">JWT/RBAC</text><text class="p3-sans" y="22" font-size="12.5" fill="#9FB3D1">auth and access control</text><text class="p3-sans" y="38" font-size="12" fill="#9FB3D1" fill-opacity=".75">Prometheus + Grafana</text></g>
+      <g class="p3-chip" style="animation-delay:1.00s"><rect x="56" y="322" width="69" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p3-mono" x="90.5" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">Python</text></g><g class="p3-chip" style="animation-delay:1.12s"><rect x="133" y="322" width="90" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p3-mono" x="178.0" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">LangGraph</text></g><g class="p3-chip" style="animation-delay:1.24s"><rect x="231" y="322" width="76" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p3-mono" x="269.0" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">FastAPI</text></g><g class="p3-chip" style="animation-delay:1.36s"><rect x="315" y="322" width="98" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p3-mono" x="364.0" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">PostgreSQL</text></g><g class="p3-chip" style="animation-delay:1.48s"><rect x="421" y="322" width="62" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p3-mono" x="452.0" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">Redis</text></g><g class="p3-chip" style="animation-delay:1.60s"><rect x="491" y="322" width="69" height="26" rx="13" fill="#10203F" stroke="#3B82F6" stroke-opacity=".38"/><text class="p3-mono" x="525.5" y="339" text-anchor="middle" font-size="11.5" fill="#93C5FD">Docker</text></g>
+    </g>
+    <g class="p3-in p3-d2"><path d="M860 96 H880" stroke="#3B82F6" stroke-opacity=".55"/><circle r="3" fill="#EFF6FF" filter="url(#p3-glowf)"><animateMotion dur="3.2s" repeatCount="indefinite" path="M860 96 H880"/></circle><path d="M1000 96 H1020" stroke="#3B82F6" stroke-opacity=".55"/><circle r="3" fill="#EFF6FF" filter="url(#p3-glowf)"><animateMotion dur="3.2s" repeatCount="indefinite" path="M1000 96 H1020"/></circle><path d="M1080 118 V184" stroke="#3B82F6" stroke-opacity=".55"/><circle r="3" fill="#EFF6FF" filter="url(#p3-glowf)"><animateMotion dur="3.2s" repeatCount="indefinite" path="M1080 118 V184"/></circle><path d="M1020 206 H1000" stroke="#3B82F6" stroke-opacity=".55"/><circle r="3" fill="#EFF6FF" filter="url(#p3-glowf)"><animateMotion dur="3.2s" repeatCount="indefinite" path="M1020 206 H1000"/></circle><g><rect x="738" y="74" width="124" height="44" rx="10" fill="#0F1B33" stroke="#3B82F6" stroke-opacity=".35"/>
+        <text class="p3-mono" x="800" y="100" text-anchor="middle" font-size="10.5" letter-spacing="1" fill="#93C5FD">RESEARCH</text></g><g><rect x="878" y="74" width="124" height="44" rx="10" fill="#0F1B33" stroke="#3B82F6" stroke-opacity=".35"/>
+        <text class="p3-mono" x="940" y="100" text-anchor="middle" font-size="10.5" letter-spacing="1" fill="#93C5FD">VERIFICATION</text></g><g><rect x="1018" y="74" width="124" height="44" rx="10" fill="#0F1B33" stroke="#3B82F6" stroke-opacity=".35"/>
+        <text class="p3-mono" x="1080" y="94" text-anchor="middle" font-size="10" letter-spacing="1" fill="#93C5FD">CONFLICT</text><text class="p3-mono" x="1080" y="107" text-anchor="middle" font-size="10" letter-spacing="1" fill="#93C5FD">DETECTION</text></g><g><rect x="1018" y="184" width="124" height="44" rx="10" fill="#0F1B33" stroke="#3B82F6" stroke-opacity=".35"/>
+        <text class="p3-mono" x="1080" y="210" text-anchor="middle" font-size="10.5" letter-spacing="1" fill="#93C5FD">CRITIQUE</text></g><g><rect x="878" y="184" width="124" height="44" rx="10" fill="#0F1B33" stroke="#93C5FD" stroke-opacity=".75"/>
+        <text class="p3-mono" x="940" y="210" text-anchor="middle" font-size="10.5" letter-spacing="1" fill="#93C5FD">SYNTHESIS</text></g><g><rect x="738" y="262" width="404" height="46" rx="10" fill="#070D1A" stroke="#3B82F6" stroke-opacity=".3" stroke-dasharray="4 4"/>
+        <text class="p3-mono" x="940" y="282" text-anchor="middle" font-size="10.5" letter-spacing="1.4" fill="#93C5FD">REDIS STREAMS WORKERS · POSTGRESQL CHECKPOINTS</text>
+        <text class="p3-sans" x="940" y="298" text-anchor="middle" font-size="11.5" fill="#9FB3D1">idempotency · retries · dead-letter handling</text></g><path d="M800 118 V262 M1080 228 V262" stroke="#3B82F6" stroke-opacity=".18" stroke-dasharray="2 5"/></g>
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#3B82F6" stroke-opacity=".22"/>
+    <rect class="p3-trace" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p3-trace)" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>
