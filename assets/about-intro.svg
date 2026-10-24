@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="ab-t ab-d">
   <title id="ab-t">About Ayush Prasad</title>
-  <desc id="ab-d">AI/ML Engineer and MSc Data Science candidate at the University of Milano-Bicocca (expected July 2027); B.Tech in Computer Science and Engineering, 2024. Shipped LedgerLens, InferX and NexusAI. Primary language Python; works with LangGraph, RAG, inference optimization, evaluation and security.</desc>
+  <desc id="ab-d">AI/ML Engineer and MSc Data Science candidate at the University of Milano-Bicocca (expected July 2027); B.Tech in Computer Science and Engineering, 2024. Builds LedgerLens, InferX, NexusAI and LifePilot, a native iOS productivity app. Primary language Python; works with LangGraph, RAG, inference optimization, evaluation and security.</desc>
   <defs>
     <linearGradient id="ab-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1426"/><stop offset="1" stop-color="#070D1A"/></linearGradient>
     <radialGradient id="ab-glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#1D4ED8" stop-opacity=".55"/><stop offset="1" stop-color="#1E3A8A" stop-opacity="0"/></radialGradient>
@@ -10,7 +10,7 @@
     <clipPath id="ab-c2"><rect class="ab-type" x="68" y="162" width="182" height="22" style="animation-delay:2.04s;animation-duration:1.16s;animation-timing-function:steps(17)"/></clipPath>
     <clipPath id="ab-c3"><rect class="ab-type" x="68" y="187" width="607" height="22" style="animation-delay:3.34s;animation-duration:0.53s;animation-timing-function:steps(1)"/></clipPath>
     <clipPath id="ab-c4"><rect class="ab-type" x="68" y="212" width="140" height="22" style="animation-delay:4.22s;animation-duration:0.82s;animation-timing-function:steps(12)"/></clipPath>
-    <clipPath id="ab-c5"><rect class="ab-type" x="68" y="237" width="267" height="22" style="animation-delay:5.19s;animation-duration:0.53s;animation-timing-function:steps(1)"/></clipPath>
+    <clipPath id="ab-c5"><rect class="ab-type" x="68" y="237" width="340" height="22" style="animation-delay:5.19s;animation-duration:0.53s;animation-timing-function:steps(1)"/></clipPath>
     <clipPath id="ab-c6"><rect class="ab-type" x="68" y="262" width="148" height="22" style="animation-delay:6.07s;animation-duration:0.88s;animation-timing-function:steps(13)"/></clipPath>
     <clipPath id="ab-c7"><rect class="ab-type" x="68" y="287" width="497" height="22" style="animation-delay:7.10s;animation-duration:0.53s;animation-timing-function:steps(1)"/></clipPath>
     <clipPath id="ab-c8"><rect class="ab-type" x="68" y="312" width="165" height="22" style="animation-delay:7.98s;animation-duration:1.02s;animation-timing-function:steps(15)"/></clipPath>
@@ -46,7 +46,7 @@
     <g clip-path="url(#ab-c2)"><text x="72" y="178" fill="#3B82F6">$</text><text x="94" y="178" fill="#EFF6FF">cat education.txt</text></g>
     <g clip-path="url(#ab-c3)"><text x="72" y="203" fill="#1D4ED8">→</text><text x="94" y="203" fill="#9FB3D1">MSc Data Science · Milano-Bicocca · exp. Jul 2027 · B.Tech CSE 2024</text></g>
     <g clip-path="url(#ab-c4)"><text x="72" y="228" fill="#3B82F6">$</text><text x="94" y="228" fill="#EFF6FF">ls ./shipped</text></g>
-    <g clip-path="url(#ab-c5)"><text x="72" y="253" fill="#1D4ED8">→</text><text x="94" y="253" fill="#9FB3D1">ledgerlens  inferx  nexusai</text></g>
+    <g clip-path="url(#ab-c5)"><text x="72" y="253" fill="#1D4ED8">→</text><text x="94" y="253" fill="#9FB3D1">ledgerlens  inferx  nexusai  lifepilot</text></g>
     <g clip-path="url(#ab-c6)"><text x="72" y="278" fill="#3B82F6">$</text><text x="94" y="278" fill="#EFF6FF">cat focus.txt</text></g>
     <g clip-path="url(#ab-c7)"><text x="72" y="303" fill="#1D4ED8">→</text><text x="94" y="303" fill="#9FB3D1">LLM apps · RAG · agents · inference · evals · security</text></g>
     <g clip-path="url(#ab-c8)"><text x="72" y="328" fill="#3B82F6">$</text><text x="94" y="328" fill="#EFF6FF">echo $PRINCIPLE</text></g>

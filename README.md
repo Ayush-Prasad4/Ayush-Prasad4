@@ -10,7 +10,7 @@
 </p>
 
 <img src="assets/title-about.svg" width="100%" alt="01 About: Hello, I'm Ayush.">
-<img src="assets/about-intro.svg" width="100%" alt="About: AI/ML Engineer and MSc Data Science candidate at the University of Milano-Bicocca, graduating July 2027, with a B.Tech in Computer Science and Engineering (2024). Builds production-grade LLM applications, RAG systems and model-inference pipelines in Python with a focus on evaluation, security and reliability. Shipped LedgerLens, InferX and NexusAI. Primary language Python; works with LangGraph, FastAPI, PyTorch, Docker and CI/CD.">
+<img src="assets/about-intro.svg" width="100%" alt="About: AI/ML Engineer and MSc Data Science candidate at the University of Milano-Bicocca, graduating July 2027, with a B.Tech in Computer Science and Engineering (2024). Builds production-grade LLM applications, RAG systems and model-inference pipelines in Python with a focus on evaluation, security and reliability. Builds LedgerLens, InferX, NexusAI and LifePilot, a native iOS productivity app. Primary language Python; works with LangGraph, FastAPI, PyTorch, Docker and CI/CD.">
 
 <img src="assets/title-impact.svg" width="100%" alt="02 Impact: Proof, in numbers.">
 <img src="assets/impact.svg" width="100%" alt="Impact in numbers. InferX: DistilBERT latency from 14.96 ms (PyTorch eager) to 1.53 ms (INT8), nearly 10 times faster; FP16 raised Qwen2.5-0.5B throughput by about 49 percent; Locust load test on AWS served 1,674 requests with 0 percent failures. LedgerLens: 7 of 8 calculation questions correct on sealed test sets; ticker/year filtering lifted hit@1 from 30 to 50 percent on 10 queries; prompt hardening cut injection success on dev attacks from 3 of 3 to 0 of 4. NexusAI: 120+ automated tests.">
@@ -30,6 +30,13 @@
 <a href="https://github.com/Ayush-Prasad4/nexusai"><img src="assets/project-nexusai.svg" width="100%" alt="NexusAI: multi-agent decision platform in LangGraph and FastAPI (research, verification, conflict detection, critique, synthesis) running as an asynchronous workflow on Redis Streams workers and PostgreSQL checkpoints, with atomic idempotency, retries, dead-letter handling, JWT/RBAC, Prometheus/Grafana observability and 120+ automated tests."></a>
 <p align="center">
   <a href="https://github.com/Ayush-Prasad4/nexusai"><img src="https://img.shields.io/badge/Repository-NexusAI-1E3A8A?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=github" alt="NexusAI repository"></a>
+</p>
+
+<a href="https://github.com/Ayush-Prasad4/LifePilot"><img src="assets/project-lifepilot.svg" width="100%" alt="LifePilot: native iOS productivity app built with SwiftUI, with task and calendar management, PDF document storage, PDFKit and Vision OCR, and AI-assisted document and chat workflows. In development."></a>
+<p align="center">
+  <a href="https://github.com/Ayush-Prasad4/LifePilot"><img src="https://img.shields.io/badge/Repository-LifePilot-1E3A8A?style=for-the-badge&labelColor=0B1426&logoColor=EFF6FF&logo=github" alt="LifePilot repository"></a>
+  <img src="https://img.shields.io/badge/Platform-iOS-1E3A8A?style=for-the-badge&labelColor=0B1426" alt="iOS platform">
+  <img src="https://img.shields.io/badge/Status-In%20Development-1E3A8A?style=for-the-badge&labelColor=0B1426" alt="In development">
 </p>
 
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit: The tools I reach for.">
